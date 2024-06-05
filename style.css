@@ -2,4 +2,31 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  text-align: center;
+}
+
+#featured-property {
+  margin: auto;
+  width: 800px;
+  text-align: center;
+}
+
+#details {
+    text-align: center; /* Centers the inline-block elements */
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+#details div {
+ display: inline-block;
+  margin-right: 10px; /* Adds space between divs */
+  width: 200px; /* Fixed width for visibility */
+  /* Optional: add background color for visibility */
+  
+  padding: 10px;
+  
+}
+
+nav a {
+  padding: 10px;
 }
